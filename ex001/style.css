@@ -5,12 +5,12 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #3700ff;
 }
 
 .calculator {
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #000000;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 300px;
@@ -23,7 +23,8 @@ body {
     font-size: 2em;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border: 1px solid ;
     border-radius: 5px;
 }
 
@@ -37,16 +38,17 @@ body {
     padding: 20px;
     font-size: 1.5em;
     background-color: #f4f4f4;
-    border: 1px solid #ddd;
+    background-color: #ffffff;
+    border: 1px solid ;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: #e0e0e0;
+    background-color: #585555;
 }
 
 .button:active {
-    background-color: #d0d0d0;
+    background-color: #ed98c8;
 }
